@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!--  This file has been downloaded from bootdey.com    @bootdey on twitter -->
+    <!--  All snippets are MIT license http://bootdey.com/license -->
+	<title>messages chat widget - Bootdey.com</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="/stylesheets/style.css">
+   
+</head>
+<body>
+	<!-- stat modal -->
+<!-- id="modalLoginAvatar"   aria-labelledby="myModalLabel"  tabindex="-1" aria-hidden="true" -->
+<div  class="modal fade" id="myModal" tabindex="-1" role="dialog"
+style="display: block;" >
+  <div class="modal-dialog cascading-modal modal-avatar modal-sm" role="document">
+    <!--Content-->
+    <div class="modal-content">
+
+      <!--Header-->
+      <div class="modal-header">
+        <img src="/images/test2.jpg" alt="avatar" class="rounded-circle img-responsive">
+      </div>
+      <!--Body-->
+      <div class="modal-body text-center mb-1">
+
+       
+		<!-- start input -->
+		
+		<div class="input-group">
+			<input value="" class="form-control" type="text" name="text-1542372332072" id="text-1542372332072" required="required" placeholder="Your Name">
+			<label for="text-1542372332072" >Your Name</label>
+			<div class="req-mark">!</div>
+		  </div>
+
+        <!-- end input -->
+        <div class="text-center mt-4">
+		  <!-- <button class="btn btn-cyan mt-1">Login <i class="fas fa-sign-in ml-1"></i></button> -->
+		  <button id="go" type="button" class="btn btn-primary">Go</button>
+        </div>
+      </div>
+
+    </div>
+    <!--/.Content-->
+  </div>
+</div>
+<!--Modal: Login with Avatar Form-->
+	<!-- end modal -->
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<div class="container">
+    <div class="col-md-12 col-lg-12">
+        <div class="panel">
+        	<!--Heading-->
+    		<div class="panel-heading">
+    		
+    			<h3 class="panel-title">Chat</h3>
+    		</div>
+    
+    		<!--Widget body-->
+    		<div id="demo-chat-body" class="collapse in">
+    			<div id="nano-1" class="nano has-scrollbar" style="height:380px">
+    				<div class="nano-content pad-all" tabindex="0" style="right: -17px;">
+    					<ul class="list-unstyled media-block" id="msg">
+    						
+    						
+    					   					</ul>
+    				</div>
+    			<div class="nano-pane"><div class="nano-slider" style="height: 141px; transform: translate(0px, 0px);"></div></div></div>
+    
+    			<!--Widget footer-->
+    			<div class="panel-footer">
+    				<div class="row">
+    					<div class="col-xs-9">
+    						<input id="input-message" type="text" placeholder="Enter your text" class="form-control chat-input">
+    					</div>
+    					<div class="col-xs-3">
+							<button class="btn btn-primary " type="submit" id="send-btn">Send</button>
+							<button class="btn btn-primary " type="submit" id="find-btn">Find</button>
+						</div>
+						
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+</div>
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+	
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.0/socket.io.js" integrity="sha512-FPJNGVqbetcAGvuJTpWqVuaOim5C5pyV+JaiAOxtBgsOWy0aiOLM9k5Nh7ikpSzUoz2Tb9Ue6zYWICDr9zZ5+g==" crossorigin="anonymous"></script>
+<script src="/javascripts/script.js"></script>
+<script src="/javascripts/javascript.js"></script>
+</body>
+</html>
